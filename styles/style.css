@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+section#background {
+    background: url(../assets/images/image-omelette.jpeg) center no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+section#recipe > h1{
+    font-size: 3em;
+}
+
+section p {
+    margin: auto;
+    text-align: justify;
+}
